@@ -16,7 +16,7 @@ namespace gazebo
                 ROS_ERROR("ROS not initialized");      
                 return;    
             }    
-            ROS_INFO("Hello World!");
+            ROS_INFO("Hello World, there!");
         }
     };
     GZ_REGISTER_WORLD_PLUGIN(WorldPluginHello)
